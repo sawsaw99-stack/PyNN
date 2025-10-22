@@ -1,11 +1,11 @@
 import random
 import math
 
-from NN import matrix
-from NN.matrix import *
+from PyNN import matrix
+from PyNN.matrix import *
 
-from NN import sigmoid
-from NN.sigmoid import *
+from PyNN import sigmoid
+from PyNN.sigmoid import *
 
 class MLP:
   def __init__(self, input_size, hidden_size, output_size):
