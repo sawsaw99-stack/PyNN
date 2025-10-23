@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyNN"
+version = "0.1.0"
+description = "A lightweight neural network implementation for Python"
+authors = [
+    { name="Sawyer", email="rather-not-say@example.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+# Optional, you can specify classifiers for the project
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sawsaw99-stack/PyNN"
+"Documentation" = "https://github.com/sawsaw99-stack/PyNN/wiki"
+"Source Code" = "https://github.com/sawsaw99-stack/PyNN"
